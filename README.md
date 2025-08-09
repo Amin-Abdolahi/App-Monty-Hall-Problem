@@ -33,7 +33,20 @@ cd App-Monty-Hall-Problem
 ```bash
 python monty_hall.py
 ```
+---
 
+## 🌐 Run as a Web App (Streamlit)
+
+This project also includes a **Streamlit**-based graphical interface, so you can run and interact with the simulation in your browser.
+
+### 1️⃣ Install dependencies
+```bash
+pip install streamlit
+```
+### 2️⃣ Run the Streamlit app
+```bash
+streamlit run streamlit_version.py
+```
 ### 3️⃣ Follow the prompts
 
 * Enter the number of simulation rounds.
@@ -64,8 +77,10 @@ This simulation lets you **see the results for yourself** by running thousands o
 
 ```
 App-Monty-Hall-Problem/
+│── streamlit_version.py # Streamlit app code
 │── monty_hall.py     # Main simulation code
 │── README.md         # Project documentation
+│── temp.ipynb       # Jupyter Notebook for experimentation
 ```
 
 ---
