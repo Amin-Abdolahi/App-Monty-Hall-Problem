@@ -8,7 +8,7 @@ st.write("Welcome to the Monty Hall Problem simulation!")
 
 st.sidebar.header("User Input")
 change_door = st.sidebar.checkbox("Change Door", value=True)
-num_simulations = st.sidebar.number_input("Number of Simulations", min_value=1, value=1000)
+num_simulations = st.sidebar.number_input("Number of Simulations", min_value=1, value=1000, step=1000)
 
 if st.button("Run Simulation"):
     results = monty_hall_gui(num_simulations, change_door)
